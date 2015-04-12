@@ -40,27 +40,6 @@ namespace Telper.Utilities.Objects
             needsUp = true;
         }
 
-        #region
-        /// <summary>
-        /// 
-        /// </summary>
-        #endregion
-        public void IncrementNumeral()
-        {
-            for (int i = 0; i < subdividions.Length; i++)
-            {
-                if (i < subdividions.Length - 1 && i > CarryOverThreshhold)
-                {
-                    List<string[]> list = new List<string[]>() { new string[2] { "a", "b" }, new string[2] { "a", "b" } };
-                    list.
-                    
-                }
-                subdividions[subdividions.Length]++;
-            }
-
-            needsUp = true;
-        }
-
         /// <summary>
         /// Formats and returns this PunctuatedNumeral
         /// </summary>
